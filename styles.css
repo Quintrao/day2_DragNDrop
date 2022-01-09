@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: black;
+  display: flex;
+  padding-top: 5rem;
+  justify-content: center;
+  overflow: hidden;
+  margin: 0;
+}
+
+.row {
+  display: flex;
+  width: 600px;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.col-header {
+  width: 150px;
+  box-shadow: 2px 2px 9px rgba(198, 198, 198, 0.36);
+  border-radius: 20px;
+  padding: 0.8rem 1rem;
+  color: #fff;
+}
+
+.item {
+  width: 150px;
+  height: 66px;
+  border: 1px solid rgb(133, 132, 132);
+  box-shadow: 4px 4px 9px rgba(198, 198, 198, 0.36);
+  border-radius: 20px;
+  background: #686768;
+  padding: 0.8rem 1rem;
+  color: #eeebeb;
+  text-align: center;
+  cursor: grab;
+}
+
+.item:active {
+  cursor: grabbing;
+}
+
+.placeholder {
+  width: 150px;
+  height: 400px;
+}
+
+.start {
+  background: linear-gradient(90deg, #642357 0%, #0f12c0 179.25%);
+}
+
+.progress {
+  background: linear-gradient(90deg, #1439e0 0%, #1fa896 100%);
+}
+
+.done {
+  background: linear-gradient(90deg, #0a8b5a 0%, #a4bd14 100%);
+}
+
+.hold {
+  background: url('https://storge.pic2.me/c/1360x800/635/5fd9ef34eb2d70.19988610.jpg');
+  background-size: cover;
+  color: white;
+}
+
+.hide {
+  display: none;
+}
+
+.hovered {
+  background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdUdTxXZuyYSF_rQWn-wa5TG9GRelvOZ-p1ehhrH_F7d808GLxpZAJd8qeFdyL1c3ngMI&usqp=CAU');
+  border-radius: 30px;
+}
